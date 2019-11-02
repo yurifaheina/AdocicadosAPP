@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "657756263663",
+    "firebase_url": "https://adocicadosapp.firebaseio.com",
+    "project_id": "adocicadosapp",
+    "storage_bucket": "adocicadosapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:657756263663:android:b4c8c3eeb5cf14fc0d771a",
+        "android_client_info": {
+          "package_name": "com.example.adocicadosapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "657756263663-k7bauvhp0hp0nghksmenums9kronpc5b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.adocicadosapp",
+            "certificate_hash": "2f2454e8a667169ac124fb95906084b3aa3e4340"
+          }
+        },
+        {
+          "client_id": "657756263663-s9co2qh6m453hgih50pkf6o6td3g1i5c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATA9h0EQxcKA7dsgQmHD_G_NAx_CfCD2Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "657756263663-s9co2qh6m453hgih50pkf6o6td3g1i5c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
