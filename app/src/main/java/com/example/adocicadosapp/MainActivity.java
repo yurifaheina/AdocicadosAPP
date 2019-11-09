@@ -1,10 +1,14 @@
 package com.example.adocicadosapp;
 
+import android.content.Intent;
 import android.os.Bundle;
 
+import com.example.adocicadosapp.ui.home.AcitivyCadastroPedido;
+import com.example.adocicadosapp.ui.home.HomeViewModel;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 
+import android.view.MenuItem;
 import android.view.View;
 
 import androidx.annotation.NonNull;
@@ -37,11 +41,14 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         FloatingActionButton fab = findViewById(R.id.fab);
+
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+            public void onClick(View v ) {
+
+                    Intent intent = new Intent(MainActivity.this, AcitivyCadastroPedido.class);
+                    startActivityForResult(intent, 0);
+
             }
         });
         DrawerLayout drawer = findViewById(R.id.drawer_layout);

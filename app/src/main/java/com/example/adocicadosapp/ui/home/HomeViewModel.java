@@ -1,8 +1,12 @@
 package com.example.adocicadosapp.ui.home;
 
+import android.os.Bundle;
+
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
+
+import com.example.adocicadosapp.R;
 
 public class HomeViewModel extends ViewModel {
 
